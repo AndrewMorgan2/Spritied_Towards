@@ -1,0 +1,16 @@
+[package]
+name = "sprited_towards"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "menu"
+path = "src/main.rs"
+
+[[bin]]
+name = "game"
+path = "src/bin/game.rs"
+
+[dependencies]
+bevy = "0.14.2"
+bevy_render = "0.14.2"
